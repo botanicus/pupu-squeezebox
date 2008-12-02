@@ -4,19 +4,16 @@ Merb_pupu is a plugin system for merb's public stuff like mootools plugins, icon
 
 h1. About squeezebox
 
+This pupu is based on digitarald's mootools lightbox called "squeezebox":http://digitarald.de/project/squeezebox. For more informations please see the showcases on digitarald's page.
+
 h1. Usage
+
+h2. Initializer
+
+Edit the public/javascripts/initializers/squeezebox.js.
 
 h2. Layout
 
 <pre>
-# for basic functionality
 plugin :squeezebox
-</pre>
-
-h2. Initializers
-
-<pre>
-window.addEvent("domready", function() {
-  // do the init stuff
-})
 </pre>
